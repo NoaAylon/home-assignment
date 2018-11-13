@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>TSG</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+    <link rel="stylesheet" href="./includes/style/style.css" />
+  </head>
+
+  <body>
+    <nav class="pink darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Noa-Eylon</a>
+      </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <h3 class="header center teal-text">Images Game</h3>
+        <div class="row center">
+          <h6 class="header col s12 light">
+            Choose ONE OR MORE from the SENSORs options and ONE from the BACKGROUNDs below:
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <section id="options-sensor">
+      <h4 class="add">
+        <input type="checkbox" name="option1" id="test5" class="IKONOS" /> <label for="test5">IKONOS</label>
+      </h4>
+      <h4 class="add-sensor">
+        <input type="checkbox" name="option1" id="test6" class="GEOEYE" /> <label for="test6">GEOEYE</label>
+      </h4>
+      <h4 class="add-sensor">
+        <input type="checkbox" name="option1" id="test7" class="OFEK" /> <label for="test7">OFEK</label>
+      </h4>
+      <h4 class="add-sensor">
+        <input type="checkbox" name="option1" id="test4" class="ALL" /> <label for="test4">ALL</label>
+      </h4>
+      <h4 class="add-sensor">
+        <input type="checkbox" name="option1" id="test3" class="NONE" /> <label for="test3">NONE</label>
+      </h4>
+    </section>
+
+    <section class="container" id="options-bkgrn">
+      <form action="#">
+        <label>
+          <input name="color" id="blue" type="radio" checked />
+          <span>BLUE</span>
+        </label>
+        <label>
+          <input name="color" id="pink" type="radio" />
+          <span>PINK</span>
+        </label>
+        <label>
+          <input name="color" id="yellow" type="radio" />
+          <span>YELLOW</span>
+        </label>
+        <label>
+          <input name="color" id="white" type="radio" />
+          <span>CLEAR</span>
+        </label>
+      </form>
+    </section>
+
+    <canvas id="canvas"> </canvas>
+    <div id='images'>
+      <img id="Bull" width="300" height="227" src="./includes/img/bull.jpg">
+      <img id="Cat" width="300" height="227" src="./includes/img/Cat.jpg">
+      <img id="Dog" width="300" height="227" src="./includes/img/Dog.jpg">
+      <img id="Frog" width="300" height="227" src="./includes/img/Frog.jpg">
+    </div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </body>
+
+</html>

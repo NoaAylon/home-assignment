@@ -1,0 +1,41 @@
+[{
+        "Name": "Frog",
+        "Sensor": "IKONOS",
+        "X": 0,
+        "Y": 0,
+        "ClipX": 80,
+        "ClipY": 64,
+        "ClipW": 30,
+        "ClipH": 40
+    },
+    {
+        "Name": "Bull",
+        "Sensor": "IKONOS",
+        "X": 50,
+        "Y": 35,
+        "ClipX": 13,
+        "ClipY": 60,
+        "ClipW": 70,
+        "ClipH": 50
+    },
+    {
+        "Name": "Dog",
+        "Sensor": "GEOEYE",
+        "X": 25,
+        "Y": 15,
+        "ClipX": 50,
+        "ClipY": 20,
+        "ClipW": 50,
+        "ClipH": 45
+    },
+    {
+        "Name": "Cat",
+        "Sensor": "OFEK",
+        "X": 31,
+        "Y": 36,
+        "ClipX": 60,
+        "ClipY": 30,
+        "ClipW": 35,
+        "ClipH": 30
+    }
+]
